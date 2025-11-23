@@ -76,8 +76,17 @@ th, td {
   padding: 0.5rem;
 }
 
+/* --------------------
+        横並び用
+-------------------- */
 .row {
   display: flex;          /* 横に並べる */
-  gap: 20px;              /* 画像の間に隙間 */
-  justify-content: center; /* 真ん中に揃える */
+  gap: 20px;              /* 画像の間隔 */
+  justify-content: center; /* 中央に揃える */
+  flex-wrap: wrap;        /* 画面が狭いときは折り返す */
 }
+
+.row img {
+  display: block;         /* 画像をブロック扱いにする */
+}
+
