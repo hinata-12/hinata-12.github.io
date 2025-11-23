@@ -75,26 +75,3 @@ th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
 }
-
-/* --------------------
-        横並び用
--------------------- */
-<style>
-.row {
-  display: flex;          /* 横に並べる */
-  align-items: center;
-  justify-content: center; 
-  height:300px;
-  background: #f2f2f2;
-}
-.row>div{
-        width:30%;
-}
-</style>
-<div class="row">
- <div>
-  <img src="IMG_2412.png" alt="にじさんじ／佐伯イッテツ">
- </div>
-<div>
- <img src="IMG_1794.png" alt="チェリーポップ／初音ミク">
-</div>
