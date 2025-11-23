@@ -75,3 +75,9 @@ th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
 }
+
+.row {
+  display: flex;          /* 横に並べる */
+  gap: 20px;              /* 画像の間に隙間 */
+  justify-content: center; /* 真ん中に揃える */
+}
